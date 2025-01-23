@@ -1,0 +1,807 @@
+
+body{
+	font-family: Montserrat;
+	margin: auto;
+}
+	
+g[id*='-page']{
+	display: none;
+}
+
+g[id*='btn-']{
+	cursor: pointer;
+}
+
+#mapa-homepage:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+#btn-kita:hover,
+#btn-itabashi:hover,
+#btn-arakawa:hover,
+#btn-sumida:hover,
+#btn-adachi:hover,
+#btn-bunkyo:hover,
+#btn-chiyoda:hover,
+#btn-chuo:hover,
+#btn-edogawa:hover,
+#btn-katsushika:hover,
+#btn-meguro:hover,
+#btn-minato:hover,
+#btn-nerima:hover,
+#btn-ota:hover,
+#btn-nakano:hover,
+#btn-shinagawa:hover,
+#btn-shinjuku:hover,
+#btn-taito:hover,
+#btn-suginami:hover,
+#btn-shibuya:hover,
+#btn-setagaya:hover,
+#btn-toshima:hover,
+#btn-kouto:hover{
+	opacity: 0.1;
+}
+
+
+#gbtn-palacio:hover{
+	transform-origin: 431px 591px;
+	transform: scale(1.3);
+}
+
+#gbtn-sea:hover{
+	transform-origin: 389px 877px;
+	transform: scale(1.3);
+}
+
+#gbtn-rio:hover{
+	transform-origin: 642px 534px;
+	transform: scale(1.3);
+}
+
+#gbtn-torre:hover{
+	transform-origin: 586px 523px;
+	transform: scale(1.3);
+}
+
+#gbtn-goto:hover{
+	transform-origin: 560px 504px;
+	transform: scale(1.3);
+}
+
+#gbtn-meiji:hover{
+	transform-origin: 504px 489px;
+	transform: scale(1.3);
+}
+
+#gbtn-sky:hover{
+	transform-origin: 388px 594px;
+	transform: scale(1.3);
+}
+
+#gbtn-senso:hover{
+	transform-origin: 575px 613px;
+	transform: scale(1.3);
+}
+
+
+
+#m1btn-bunkyo:hover{
+	transform-origin: 1085px 853px;
+	transform: scale(1.3);
+}
+
+#m1btn-chuo:hover{
+	transform-origin: 1082px 926px;
+	transform: scale(1.3);
+}
+
+#m1btn-sea:hover{
+	transform-origin: 1458px 855px;
+	transform: scale(1.3);
+}
+
+#m1btn-senso:hover{
+	transform-origin: 1449px 935px;
+	transform: scale(1.3);
+}
+
+
+#m2btn-toshima:hover{
+	transform-origin: 1096px 850px;
+	transform: scale(1.3);
+}
+
+#m2btn-arakawa:hover{
+	transform-origin: 1096px 926px;
+	transform: scale(1.3);
+}
+
+#m2btn-senso:hover{
+	transform-origin: 1444px 863px;
+	transform: scale(1.3);
+}
+
+#m2btn-palacio:hover{
+	transform-origin: 1445px 939px;
+	transform: scale(1.3);
+}
+
+
+#m3btn-adachi:hover{
+	transform-origin: 1086px 847px;
+	transform: scale(1.3);
+}
+
+#m3btn-bunkyo:hover{
+	transform-origin: 1091px 926px;
+	transform: scale(1.3);
+}
+
+#m3btn-senso:hover{
+	transform-origin: 1447px 851px;
+	transform: scale(1.3);
+}
+
+#m3btn-palacio:hover{
+	transform-origin: 1448px 927px;
+	transform: scale(1.3);
+}
+
+
+#m4btn-arkawa:hover{
+	transform-origin: 1093px 845px;
+	transform: scale(1.3);
+}
+
+#m4btn-chuo:hover{
+	transform-origin: 1082px 919px;
+	transform: scale(1.3);
+}
+
+#m4btn-senso:hover{
+	transform-origin: 1446px 851px;
+	transform: scale(1.3);
+}
+
+#m4btn-palacio:hover{
+	transform-origin: 1448px 927px;
+	transform: scale(1.3);
+}
+
+
+#m5btn-chiyoda:hover{
+	transform-origin: 1089px 847px;
+	transform: scale(1.3);
+}
+
+#m5btn-edogawa:hover{
+	transform-origin: 1097px 929px;
+	transform: scale(1.3);
+}
+
+#m5btn-palacio:hover{
+	transform-origin: 1456px 853px;
+	transform: scale(1.3);
+}
+
+#m5btn-sea:hover{
+	transform-origin: 1462px 928px;
+	transform: scale(1.3);
+}
+
+
+#m6btn-chuo:hover{
+	transform-origin: 1082px 857px;
+	transform: scale(1.3);
+}
+
+#m6btn-itabashi:hover{
+	transform-origin: 1088px 931px;
+	transform: scale(1.3);
+}
+
+#m6btn-palacio:hover{
+	transform-origin: 1450px 860px;
+	transform: scale(1.3);
+}
+
+#m6btn-rio:hover{
+	transform-origin: 1458px 925px;
+	transform: scale(1.3);
+}
+
+
+#m7btn-edogawa:hover{
+	transform-origin: 1086px 848px;
+	transform: scale(1.3);
+}
+
+#m7btn-katsushika:hover{
+	transform-origin: 1096px 935px;
+	transform: scale(1.3);
+}
+
+#m7btn-sea:hover{
+	transform-origin: 1451px 853px;
+	transform: scale(1.3);
+}
+
+#m7btn-rio:hover{
+	transform-origin: 1453px 929px;
+	transform: scale(1.3);
+}
+
+
+#m8btn-itabashi:hover{
+	transform-origin: 1088px 853px;
+	transform: scale(1.3);
+}
+
+#m8btn-kita:hover{
+	transform-origin: 1089px 930px;
+	transform: scale(1.3);
+}
+
+#m8btn-sea:hover{
+	transform-origin: 1451px 852px;
+	transform: scale(1.3);
+}
+
+#m8btn-rio:hover{
+	transform-origin: 1453px 929px;
+	transform: scale(1.3);
+}
+
+
+#m9btn-katsushika:hover{
+	transform-origin: 1094px 848px;
+	transform: scale(1.3);
+}
+
+#m9btn-koto:hover{
+	transform-origin: 1028px 932px;
+	transform: scale(1.3);
+}
+
+#m9btn-sea:hover{
+	transform-origin: 1451px 848px;
+	transform: scale(1.3);
+}
+
+#m9btn-rio:hover{
+	transform-origin: 1453px 925px;
+	transform: scale(1.3);
+}
+
+
+#m10btn-kita:hover{
+	transform-origin: 1089px 862px;
+	transform: scale(1.3);
+}
+
+#m10btn-meguro:hover{
+	transform-origin: 1099px 942px;
+	transform: scale(1.3);
+}
+
+#m10btn-sea:hover{
+	transform-origin: 1451px 857px;
+	transform: scale(1.3);
+}
+
+#m10btn-rio:hover{
+	transform-origin: 1453px 941px;
+	transform: scale(1.3);
+}
+
+
+#m11btn-koto:hover{
+	transform-origin: 1100px 850px;
+	transform: scale(1.3);
+}
+
+#m11btn-minato:hover{
+	transform-origin: 1094px 929px;
+	transform: scale(1.3);
+}
+
+#m11btn-sea:hover{
+	transform-origin: 1473px 848px;
+	transform: scale(1.3);
+}
+
+#m11btn-torre:hover{
+	transform-origin: 1481px 943px;
+	transform: scale(1.3);
+}
+
+
+#m12btn-meguro:hover{
+	transform-origin: 1100px 853px;
+	transform: scale(1.3);
+}
+
+#m12btn-nakano:hover{
+	transform-origin: 1096px 941px;
+	transform: scale(1.3);
+}
+
+#m12btn-rio:hover{
+	transform-origin: 1438px 849px;
+	transform: scale(1.3);
+}
+
+#m12btn-goto:hover{
+	transform-origin: 1439px 938px;
+	transform: scale(1.3);
+}
+
+
+#m13btn-minato:hover{
+	transform-origin: 1088px 863px;
+	transform: scale(1.3);
+}
+
+#m13btn-nerima:hover{
+	transform-origin: 1092px 941px;
+	transform: scale(1.3);
+}
+
+#m13btn-torre:hover{
+	transform-origin: 1438px 856px;
+	transform: scale(1.3);
+}
+
+#m13btn-goto:hover{
+	transform-origin: 1433px 948px;
+	transform: scale(1.3);
+}
+
+
+#m14btn-nakano:hover{
+	transform-origin: 1097px 857px;
+	transform: scale(1.3);
+}
+
+#m14btn-ota:hover{
+	transform-origin: 1096px 925px;
+	transform: scale(1.3);
+}
+
+#m14btn-torre:hover{
+	transform-origin: 1438px 847px;
+	transform: scale(1.3);
+}
+
+#m14btn-goto:hover{
+	transform-origin: 1433px 939px;
+	transform: scale(1.3);
+}
+
+
+#m15btn-nerima:hover{
+	transform-origin: 1092px 859px;
+	transform: scale(1.3);
+}
+
+#m15btn-setagaya:hover{
+	transform-origin: 1099px 936px;
+	transform: scale(1.3);
+}
+
+#m15btn-torre:hover{
+	transform-origin: 1453px 852px;
+	transform: scale(1.3);
+}
+
+#m15btn-goto:hover{
+	transform-origin: 1431px 944px;
+	transform: scale(1.3);
+}
+
+
+#m16btn-ota:hover{
+	transform-origin: 1096px 852px;
+	transform: scale(1.3);
+}
+
+#m16btn-shibuya:hover{
+	transform-origin: 1094px 920px;
+	transform: scale(1.3);
+}
+
+#m16btn-torre:hover{
+	transform-origin: 1450px 862px;
+	transform: scale(1.3);
+}
+
+#m16btn-meiji:hover{
+	transform-origin: 1437px 944px;
+	transform: scale(1.3);
+}
+
+
+#m17btn-setagaya:hover{
+	transform-origin: 1100px 853px;
+	transform: scale(1.3);
+}
+
+#m17btn-shinagawa:hover{
+	transform-origin: 1104px 927px;
+	transform: scale(1.3);
+}
+
+#m17btn-goto:hover{
+	transform-origin: 1432px 853px;
+	transform: scale(1.3);
+}
+
+#m17btn-sky:hover{
+	transform-origin: 1445px 936px;
+	transform: scale(1.3);
+}
+
+
+#m18btn-shibuya:hover{
+	transform-origin: 1092px 809px;
+	transform: scale(1.3);
+}
+
+#m18btn-shinjuku:hover{
+	transform-origin: 1098px 887px;
+	transform: scale(1.3);
+}
+
+#m18btn-meiji:hover{
+	transform-origin: 1443px 810px;
+	transform: scale(1.3);
+}
+
+#m18btn-sky:hover{
+	transform-origin: 1459px 901px;
+	transform: scale(1.3);
+}
+
+
+#m19btn-shinagawa:hover{
+	transform-origin: 1105px 848px;
+	transform: scale(1.3);
+}
+
+#m19btn-suginami:hover{
+	transform-origin: 1099px 924px;
+	transform: scale(1.3);
+}
+
+#m19btn-meiji:hover{
+	transform-origin: 1440px 857px;
+	transform: scale(1.3);
+}
+
+#m19btn-sky:hover{
+	transform-origin: 1455px 928px;
+	transform: scale(1.3);
+}
+
+
+#m20btn-shinjuku:hover{
+	transform-origin: 1090px 860px;
+	transform: scale(1.3);
+}
+
+#m20btn-sumida:hover{
+	transform-origin: 1091px 933px;
+	transform: scale(1.3);
+}
+
+#m20btn-meiji:hover{
+	transform-origin: 1440px 866px;
+	transform: scale(1.3);
+}
+
+#m20btn-sky:hover{
+	transform-origin: 1455px 937px;
+	transform: scale(1.3);
+}
+
+
+#m21btn-suginami:hover{
+	transform-origin: 1098px 850px;
+	transform: scale(1.3);
+}
+
+#m21btn-taito:hover{
+	transform-origin: 1076px 930px;
+	transform: scale(1.3);
+}
+
+#m21btn-meiji:hover{
+	transform-origin: 1456px 861px;
+	transform: scale(1.3);
+}
+
+#m21btn-senso:hover{
+	transform-origin: 1449px 941px;
+	transform: scale(1.3);
+}
+
+
+#m22btn-sumida:hover{
+	transform-origin: 1100px 865px;
+	transform: scale(1.3);
+}
+
+#m22btn-toshima:hover{
+	transform-origin: 1101px 924px;
+	transform: scale(1.3);
+}
+
+#m22btn-sky:hover{
+	transform-origin: 1479px 859px;
+	transform: scale(1.3);
+}
+
+#m22btn-palacio:hover{
+	transform-origin: 1460px 930px;
+	transform: scale(1.3);
+}
+
+
+#m23btn-adachi:hover{
+	transform-origin: 1089px 850px;
+	transform: scale(1.3);
+}
+
+#m23btn-taito:hover{
+	transform-origin: 1079px 928px;
+	transform: scale(1.3);
+}
+
+#m23btn-senso:hover{
+	transform-origin: 1444px 856px;
+	transform: scale(1.3);
+}
+
+#m23btn-palacio:hover{
+	transform-origin: 1445px 931px;
+	transform: scale(1.3);
+}
+
+
+#m24btn-bunkyo:hover{
+	transform-origin: 335px 902px;
+	transform: scale(1.3);
+}
+
+#m24btn-chuo:hover{
+	transform-origin: 332px 976px;
+	transform: scale(1.3);
+}
+
+#m24btn-sea:hover{
+	transform-origin: 708px 904px;
+	transform: scale(1.3);
+}
+
+#m24btn-senso:hover{
+	transform-origin: 699px 985px;
+	transform: scale(1.3);
+}
+
+
+#m25btn-chuo:hover{
+	transform-origin: 333px 888px;
+	transform: scale(1.3);
+}
+
+#m25btn-itabashi:hover{
+	transform-origin: 338px 962px;
+	transform: scale(1.3);
+}
+
+#m25btn-palacio:hover{
+	transform-origin: 700px 891px;
+	transform: scale(1.3);
+}
+
+#m25btn-rio:hover{
+	transform-origin: 708px 956px;
+	transform: scale(1.3);
+}
+
+
+#m26btn-koto:hover{
+	transform-origin: 345px 862px;
+	transform: scale(1.3);
+}
+
+#m26btn-minato:hover{
+	transform-origin: 339px 940px;
+	transform: scale(1.3);
+}
+
+#m26btn-sea:hover{
+	transform-origin: 719px 860px;
+	transform: scale(1.3);
+}
+
+#m26btn-torre:hover{
+	transform-origin: 726px 954px;
+	transform: scale(1.3);
+}
+
+
+#m27btn-meguro:hover{
+	transform-origin: 350px 885px;
+	transform: scale(1.3);
+}
+
+#m27btn-nakano:hover{
+	transform-origin: 348px 979px;
+	transform: scale(1.3);
+}
+
+#m27btn-rio:hover{
+	transform-origin: 699px 884px;
+	transform: scale(1.3);
+}
+
+#m27btn-goto:hover{
+	transform-origin: 700px 972px;
+	transform: scale(1.3);
+}
+
+
+#m28btn-ota:hover{
+	transform-origin: 351px 880px;
+	transform: scale(1.3);
+}
+
+#m28btn-shibuya:hover{
+	transform-origin: 357px 955px;
+	transform: scale(1.3);
+}
+
+#m28btn-torre:hover{
+	transform-origin: 723px 985px;
+	transform: scale(1.3);
+}
+
+#m28btn-meiji:hover{
+	transform-origin: 714px 962px;
+	transform: scale(1.3);
+}
+
+
+#m29btn-setagaya:hover{
+	transform-origin: 357px 881px;
+	transform: scale(1.3);
+}
+
+#m29btn-shinagawa:hover{
+	transform-origin: 365px 959px;
+	transform: scale(1.3);
+}
+
+#m29btn-goto:hover{
+	transform-origin: 687px 888px;
+	transform: scale(1.3);
+}
+
+#m29btn-sky:hover{
+	transform-origin: 694px 962px;
+	transform: scale(1.3);
+}
+
+
+#m30btn-suginami:hover{
+	transform-origin: 356px 881px;
+	transform: scale(1.3);
+}
+
+#m30btn-taito:hover{
+	transform-origin: 339px 961px;
+	transform: scale(1.3);
+}
+
+#m30btn-meiji:hover{
+	transform-origin: 718px 892px;
+	transform: scale(1.3);
+}
+
+#m30btn-senso:hover{
+	transform-origin: 712px 974px;
+	transform: scale(1.3);
+}
+
+
+#m31btn-sumida:hover{
+	transform-origin: 345px 880px;
+	transform: scale(1.3);
+}
+
+#m31btn-toshima:hover{
+	transform-origin: 347px 939px;
+	transform: scale(1.3);
+}
+
+#m31btn-sky:hover{
+	transform-origin: 725px 874px;
+	transform: scale(1.3);
+}
+
+#m31btn-palacio:hover{
+	transform-origin: 706px 946px;
+	transform: scale(1.3);
+}
+
+
+	.st0{fill:#FAF5F4;}
+	.st1{fill:none;}
+	.st2{fill:#B51100;}
+
+	.st4{font-size:60px;}
+	
+	.st6{font-size:68px;}
+	.st7{font-size:53px;}
+	
+	.st9{font-size:120px;}
+	.st10{fill:none;stroke:#B51100;stroke-width:4;stroke-miterlimit:10;}
+	.st11{font-size:30px;}
+	.st12{font-size:20px;}
+	.st13{font-size:35px;}
+	.st14{font-size:23px;}
+	.st15{font-size:48px;}
+	.st16{font-size:62px;}
+	.st17{font-size:15px;}
+	.st18{fill:none;stroke:#FAF5F4;stroke-width:4;stroke-miterlimit:10;}
+	.st19{font-size:11.7425px;}
+	.st20{fill:#FFE5C3;}
+	.st21{fill:#723808;}
+	.st22{fill:#110600;}
+	.st23{fill:#FF3228;}
+	.st24{fill:#FBCD53;}
+	.st25{fill:#6792A5;}
+	.st26{fill:#FFFFFF;}
+	.st27{fill:#DAE0DF;}
+	.st28{fill:#87949B;}
+	.st29{fill:#B9BABA;}
+	.st30{fill:#427084;}
+	.st31{fill:#99B7C3;}
+	.st32{fill:#DDDDDD;}
+	.st33{fill:#AAA59A;}
+	.st34{fill:#423E3E;}
+	.st35{fill:#FDFEFF;}
+	.st36{fill:#A0A0A0;}
+	.st37{fill:#1D211F;}
+	.st38{fill:#4B5D59;}
+	.st39{fill:#E6ADC8;}
+	.st40{fill:#D86493;}
+	.st41{fill:#DA5C7F;}
+	.st42{fill:#E7311B;}
+	.st43{fill:#858585;}
+	.st44{fill:#E5E5E5;}
+	.st45{fill:#A21E0B;}
+	.st46{fill:#CB8B9E;}
+	.st47{fill:#A0210F;}
+	.st48{fill:#C4A483;}
+	.st49{fill:#99795C;}
+	.st50{fill:#B7A100;}
+	.st51{fill:#ADB5BD;}
+	.st52{fill:#6B7689;}
+	.st53{fill:#66769A;}
+	.st54{fill:#3F4965;}
+	.st55{fill:#8C93A1;}
+	.st56{letter-spacing:1;}
+	.st57{letter-spacing:3;}
+	.st58{fill:#820600;}
+	.st59{font-size:54px;}
+	.st60{fill:none;stroke:#B51100;stroke-width:3;stroke-miterlimit:10;}
+	.st61{fill:none;stroke:#B51100;stroke-width:2;stroke-miterlimit:10;}
+	.st62{clip-path:url(#SVGID_00000027577934834514183560000009052590587695898501_);}
+	.st63{clip-path:url(#SVGID_00000036949298317789961280000016611549693734931873_);}
+	.st64{fill:#513819;}
+	.st65{clip-path:url(#SVGID_00000013171978003603054900000013163508804728373377_);}
+	.st66{clip-path:url(#SVGID_00000155844520928696324020000001483102326045940127_);}
+
